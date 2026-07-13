@@ -16,4 +16,4 @@ marks3=int(input("enter the marks3:"))
 
 total_marks = marks1 + marks2 + marks3
 
-print(f"your name is :{name} \n your age is : {age} \n your usn is : {usn} \n your total marks is : {total_marks}")
+print(f"your name is :{name}  \n your age is : {age} \n your usn is : {usn} \n your total marks is : {total_marks}")
