@@ -1,0 +1,10 @@
+
+
+num = int(input("Enter the number :"))
+a = 0
+for i in range(0,(num*10)+1,num) :
+    if i == 0 :
+        print()
+    else:
+        a+=1
+        print(f"{num} X {a} = {i} ")
