@@ -1,0 +1,1 @@
+info(s_name,s_age,s_course)
