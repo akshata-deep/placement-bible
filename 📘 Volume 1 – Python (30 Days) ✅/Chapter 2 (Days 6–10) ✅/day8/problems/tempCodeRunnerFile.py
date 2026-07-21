@@ -1,4 +1,7 @@
-marks = [75, 80, 65, 90]
-mark = int(input("Enter the mark which you wnat to delete :"))
-marks.remove(mark)
-print(marks)
+students = [
+    ["Harry", 20],
+    ["Sarah", 22],
+    ["Bruno", 21]
+]
+students[1][1] = 25
+print(students)
