@@ -79,6 +79,7 @@ def average_marks(students):
         sum += student[1] 
         average = sum/len(students)
     print(average)
+    
             
                 
             
