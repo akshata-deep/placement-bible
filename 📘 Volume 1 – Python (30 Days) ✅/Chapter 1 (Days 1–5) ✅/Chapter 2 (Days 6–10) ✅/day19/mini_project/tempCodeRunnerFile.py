@@ -1,2 +1,0 @@
-else:
-        print("Incorrect PIN")
