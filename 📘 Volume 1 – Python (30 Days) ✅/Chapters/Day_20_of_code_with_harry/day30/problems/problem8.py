@@ -1,15 +1,15 @@
 def sum_numbers(n,sum):
     if n == 1:
-        sum += n
+        sum *= n
         return sum
     else:
-        sum += n
+        sum *= n
         result = sum_numbers(n-1,sum)
-        return sum
+        return result
 
 
     
 
 sum = 0
-result = sum_numbers(5,sum)
+result = sum_numbers(3,sum)
 print(result)
