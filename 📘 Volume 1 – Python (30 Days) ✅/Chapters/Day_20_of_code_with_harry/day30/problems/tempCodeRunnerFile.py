@@ -1,15 +1,7 @@
-def sum_numbers(n,sum):
-    if n == 1:
-        sum += n
-        return sum
-    else:
-        sum += n
-        result = sum_numbers(n-1,sum)
-        return sum
+def sum_even(n):
+#     if n % 2 == 0 :
+        
 
 
-    
+#     sum_even(n-1)
 
-sum = 0
-result = sum_numbers(5,sum)
-print(result)
