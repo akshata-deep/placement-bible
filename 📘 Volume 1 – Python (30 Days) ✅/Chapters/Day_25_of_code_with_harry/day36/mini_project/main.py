@@ -30,3 +30,5 @@ while True:
             print("Invalid option. Please choose between 1 and 5.")
     except ValueError:
         print("ValueError! Option must be an integer.")
+    finally:
+        print("Operation Completed")
